@@ -1,0 +1,45 @@
+/* Puppy Chat docs — warm paper palette overrides */
+
+:root > * {
+  --md-primary-fg-color: #faf9f5;
+  --md-primary-bg-color: #1f1e1d;
+  --md-typeset-a-color: #b45309;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #faf9f5;
+  --md-primary-bg-color: #1f1e1d;
+  --md-default-bg-color: #faf9f5;
+  --md-typeset-color: #1f1e1d;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1f1e1d;
+  --md-primary-bg-color: #faf9f5;
+  --md-default-bg-color: #232120;
+}
+
+/* Header: paper background, ink text */
+.md-header {
+  background-color: #faf9f5;
+  color: #1f1e1d;
+}
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #1f1e1d;
+  color: #faf9f5;
+}
+
+.md-tabs {
+  background-color: #faf9f5;
+  color: #1f1e1d;
+}
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #1f1e1d;
+  color: #faf9f5;
+}
+
+/* Logo in the header */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.6rem;
+}
